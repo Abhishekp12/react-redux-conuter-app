@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   
   return (
-    
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mt-5 d-flex justify-content-center ' >
+      <div className=" mt-5">  
+   <div className="mt-5 mb-5  " style={{textAlign:'center', color:'black' , fontWeight:'bold'}}>counter ouput</div>
+   <div className=' d-flex  mt-5'>
+
+   <div className="border border-primary text-primary rounded-circle m-2 p-1" style={{textAlign:'center' , fontWeight:'bold'}}> incremet + </div>
+
+   <div className="border border-warning text-warning rounded-circle m-2 p-1" style={{textAlign:'center' , fontWeight:'bold'}}> decrement - </div>
+   </div>
+    </div>
     </div>
   );
 }
